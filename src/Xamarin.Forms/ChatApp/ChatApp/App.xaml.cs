@@ -21,7 +21,7 @@ namespace ChatApp
 
         protected override void OnStart()
         {
-            AppCenter.Start("android=8588efb8-ccfa-4e0b-a1d5-e236d9fcbd28;ios=56f270e2-3a12-4410-b68b-a931f36f6cdb",
+            AppCenter.Start("android=54b84698-ea4e-47cb-8c30-aa1e9abfa331;ios=56f270e2-3a12-4410-b68b-a931f36f6cdb",
                   typeof(Analytics), typeof(Crashes));
         }
 
